@@ -1,0 +1,29 @@
+{
+  "target": "Estimated_Deliveries",
+  "trained_at_utc": "2026-06-07T14:28:41.619493+00:00",
+  "dataset_rows": 2640,
+  "train_rows": 2112,
+  "test_rows": 528,
+  "best_model_class": "XGBRegressor",
+  "best_params": {
+    "model__subsample": 1.0,
+    "model__reg_lambda": 0.5,
+    "model__reg_alpha": 1.0,
+    "model__n_estimators": 400,
+    "model__max_depth": 4,
+    "model__learning_rate": 0.1,
+    "model__colsample_bytree": 1.0
+  },
+  "regression_metrics": {
+    "mae": 51.36771774291992,
+    "mse": 5474.129862249991,
+    "rmse": 73.98736285508485,
+    "r2": 0.9995943307876587,
+    "mape_percent": 0.6366402471267663
+  },
+  "forecast_metrics": {
+    "mae": 15247.473083188985,
+    "rmse": 19002.182932489784,
+    "mape_percent": 8.02490103718795
+  }
+}
